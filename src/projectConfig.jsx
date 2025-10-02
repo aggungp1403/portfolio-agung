@@ -25,26 +25,23 @@ export const NAV = [
 ];
 
 export const SKILLS = [
-  // Umum — akan otomatis dapat ikon via CDN (atau lokal jika disediakan)
+  // Umum — otomatis dapat ikon via CDN (atau lokal jika disediakan)
   "HTML",
   "CSS",
   "JavaScript",
   "PHP",
   "CodeIgniter",
-  "Laravel",
+  { label: "Laravel", icon: "icons/laravel.png" }, // override ikon lokal
   "Vue.js",
   "React",
   "MySQL",
   "PostgreSQL",
   "Tailwind CSS",
-  "Figma",
+  { label: "Figma", icon: "icons/figma.png" },     // override ikon lokal
   "Miro",
 
-  // Yang tidak punya brand ikon jelas — override pakai ikon lokal:
-  // (Letakkan file di: public/icons/<nama-file>.svg)
+  // Tidak punya brand ikon jelas — pakai ikon lokal sendiri
   { label: "REST API",     icon: "icons/rest-api.svg" },
-  { label: "laravel",         icon: "icons/laravel.png" },          // Simple Icons tidak punya "Maze"
-  { label: "figma",  icon: "icons/figma.png" },
   { label: "User Testing", icon: "icons/user-testing.svg" },
 ];
 
@@ -52,7 +49,7 @@ export const PROJECTS = [
   {
     title: "LearnEra LMS",
     role: "Full-stack / UI Designer",
-    tags: ["Laravel","MySQL","Blade","Stripe/Midtrans"],
+    tags: ["Laravel", "MySQL", "Blade", "Stripe/Midtrans"],
     desc: "Learning platform dengan multi-role dashboards, pembayaran, dan adaptive content.",
     links: [{ label: "Preview", href: "#" }, { label: "Code", href: "#" }],
     cover: "cover/cover1.png",
@@ -60,7 +57,7 @@ export const PROJECTS = [
   {
     title: "GO-MRT E-Ticket",
     role: "UI/UX Designer",
-    tags: ["Design","Prototype","User Flow"],
+    tags: ["Design", "Prototype", "User Flow"],
     desc: "Alur pemesanan tiket B2C lengkap: wallet, cart, dan order tracking. Hi-fi prototype.",
     links: [{ label: "Case Study", href: "#" }],
     cover: "cover/mrt.png",
@@ -68,7 +65,7 @@ export const PROJECTS = [
   {
     title: "OCA Telkom Landing",
     role: "UI/UX Designer",
-    tags: ["UI","Design","Prototype"],
+    tags: ["UI", "Design", "Prototype"],
     desc: "Landing page dengan interactive demo & section konversi.",
     links: [{ label: "Live", href: "#" }],
     cover: "cover/cover3.png",
@@ -76,7 +73,7 @@ export const PROJECTS = [
   {
     title: "FundEx Web Revamp",
     role: "UI/UX Designer",
-    tags: ["UI","Prototype","User Flow"],
+    tags: ["UI", "Prototype", "User Flow"],
     desc: "Perombakan tutorial, penambahan testimoni, dan perbaikan IA untuk onboarding.",
     links: [{ label: "Overview", href: "#" }],
     cover: "cover/cover4.png",
@@ -90,16 +87,42 @@ export const PROJECTS = [
     cover: "cover/gallacy.png",
   },
   {
-  title: "UNPAR UI/UX Landing Page",
-  role: "UI/UX",
-  tags: ["Figma", "Prototype", "Landing Page", "A/B Test"],
-  desc: "Redesign landing page admisi UNPAR: value prop jelas, struktur informasi ringkas, dan CTA yang lebih konversi.",
-  links: [
-    { label: "Case Study", href: "#" },
-    { label: "Prototype", href: "#" },
-  ],
-  cover: "cover/unpar.png",
-}
+    title: "UNPAR UI/UX Landing Page",
+    role: "UI/UX",
+    tags: ["Figma", "Prototype", "Landing Page", "A/B Test"],
+    desc: "Redesign landing page admisi UNPAR: value prop jelas, struktur informasi ringkas, dan CTA yang lebih konversi.",
+    links: [
+      { label: "Case Study", href: "#" },
+      { label: "Prototype", href: "#" },
+    ],
+    cover: "cover/unpar.png",
+  },
+
+  /* ======== Tambahan 3 Project ======== */
+  {
+    title: "EduGlobe",
+    role: "UI Designer",
+    tags: ["Figma", "Mobile App", "Hifidelity"],
+    desc: "Panduan lengkap menuju universitas impian dan sukses UTBK",
+    links: [{ label: "Preview", href: "#" }, { label: "Code", href: "#" }],
+    cover: "cover/eduglobe.png", // simpan di public/cover/kasirq.png
+  },
+  {
+    title: "FitPlay - WorkOut UI",
+    role: "UI/UX Designer",
+    tags: ["Design", "User Friendly", "Prototype"],
+    desc: "Satu aplikasi untuk workout, jadwal, dan koneksi dengan komunitas fitnes",
+    links: [{ label: "Preview", href: "#" }, { label: "Code", href: "#" }],
+    cover: "cover/fitplay.png",
+  },
+  {
+    title: "Taskify",
+    role: "UI/UX Designer",
+    tags: ["Design", "Interaktif", "Prototype"],
+    desc: "Produktif setiap hari dengan manajemen tugas yang simpel.",
+    links: [{ label: "Case Study", href: "#" }, { label: "Prototype", href: "#" }],
+    cover: "cover/task.png",
+  },
 ];
 
 export const PHOTOS = [
