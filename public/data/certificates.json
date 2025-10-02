@@ -1,0 +1,44 @@
+[
+  {
+    "issuer": "Digistar Telkom Indonesia",
+    "name": "UI/UX Designer – Hipster Mentee",
+    "year": "2024",
+    "url": "",
+    "image": "data/certivicate digistar class TELKOMIDN.jpeg"
+  },
+  {
+    "issuer": "Rakamin Academy",
+    "name": "UI/UX Bootcamp",
+    "year": "2023",
+    "url": "",
+    "image": "data/certivicate bootcamp UIUX.jpeg"
+  },
+  {
+    "issuer": "UNPAR",
+    "name": "UI/UX Internship – BTI",
+    "year": "2024",
+    "url": "",
+    "image": "data/certivicate internship UNPAR.jpeg"
+  },
+  {
+    "issuer": "Fundex.id",
+    "name": "UI/UX Internship",
+    "year": "2024",
+    "url": "",
+    "image": "data/certivicate internship fundex.png"
+  },
+  {
+    "issuer": "Digistar Telkom Indonesia",
+    "name": "Mastering NestJS",
+    "year": "2025",
+    "url": "",
+    "image": "data/certificatetelkom.jpeg"
+  },
+  {
+    "issuer": "Udemy",
+    "name": "Bootcamp Fullstack Development",
+    "year": "2025",
+    "url": "",
+    "image": "data/udemy.jpg"
+  }
+]

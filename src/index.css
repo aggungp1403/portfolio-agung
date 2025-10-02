@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* === Floating green blobs === */
+@keyframes blobFloat1 {
+  0% { transform: translate(-15%, -10%) scale(1); }
+  50% { transform: translate(10%, -5%) scale(1.05); }
+  100% { transform: translate(-15%, 5%) scale(1); }
+}
+@keyframes blobFloat2 {
+  0% { transform: translate(10%, 0%) scale(1); }
+  50% { transform: translate(-10%, 10%) scale(1.08); }
+  100% { transform: translate(15%, -5%) scale(1); }
+}
+@keyframes blobFloat3 {
+  0% { transform: translate(-5%, 15%) scale(1); }
+  50% { transform: translate(5%, -5%) scale(1.04); }
+  100% { transform: translate(-5%, 15%) scale(1); }
+}
+.blob-1 { animation: blobFloat1 24s ease-in-out infinite; }
+.blob-2 { animation: blobFloat2 30s ease-in-out infinite; }
+.blob-3 { animation: blobFloat3 28s ease-in-out infinite; }
